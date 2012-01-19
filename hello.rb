@@ -2,7 +2,7 @@ require 'camping'
 
 Camping.goes :Hello
 
-module Hello::Controller
+module Hello::Controllers
   class Index < R '/'
     def get
       render :hello
